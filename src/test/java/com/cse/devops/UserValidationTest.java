@@ -15,7 +15,7 @@ public class UserValidationTest {
 	public void testCase2()
 	{
 		UserValidation uv=new UserValidation();
-		Assert.assertEquals(false,uv.check("Siva", "Siva@12345"));
+		Assert.assertEquals(false,uv.check("Siva", "Siva@1234"));
 	}
 	@Test
 	public void testCase3()
@@ -27,7 +27,7 @@ public class UserValidationTest {
 	public void testCase4()
 	{
 		UserValidation uv=new UserValidation();
-		Assert.assertEquals(false,uv.check("SIVA", "SIVA@12345"));
+		Assert.assertEquals(false,uv.check("SIVA", "SIVA@1234"));
 	}
 	
 
